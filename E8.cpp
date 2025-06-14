@@ -18,7 +18,7 @@ int main (){
 			cout<<num1<<" | "<<num2<<" | "<<num3<<endl;
 			cout<<"---------"<<endl;
 			monedas=monedas-rpta;
-			if (num1==num2==num3){
+			if (num1==num2 & num2==num3){
 				rpta=rpta*10;
 				monedas=monedas+rpta;
 			}else if (num1==num2||num2==num3||num1==num3){
