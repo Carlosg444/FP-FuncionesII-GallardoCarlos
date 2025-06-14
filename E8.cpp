@@ -24,7 +24,7 @@ int main (){
 			}else if (num1==num2||num2==num3||num1==num3){
 				rpta=rpta*2;
 				monedas=monedas+rpta;
-			}else if (num3-1==num2 & num2-1==num1){
+			}else if ((num3-1==num2 & num2-1==num1)||(num3+1==num2 & num2+1==num1)){
 				rpta=rpta*5;
 				monedas=monedas+rpta;
 			}
